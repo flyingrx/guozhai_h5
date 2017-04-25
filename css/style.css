@@ -52,14 +52,21 @@ div{ transition:all 0.8s linear 0.5s; -webkit-transition:all 0.8s linear 0.5s;}
 /*begin*/
 .fp-tableCell{ position:relative;}
 .sec{ position:absolute; left:0px; top:0px; width:100%; height:100%;}
-.posDiv{ position:absolute; left:0px;}
-.btnBox{ position:absolute; z-index:10; top:92%; left:45.34%; width:9.33%; opacity:0; animation:imgBtnFn 1s linear infinite;}
+.posDiv{ position:absolute; }
+.btnBox{ position:absolute; z-index:10; top:92%; left:45.34%; width:9.33% !important; opacity:0; animation:imgBtnFn 1s linear infinite;}
 /*第1屏*/
-.sec1{ background:url(../images/page01_bg.jpg) no-repeat; background-size:cover;}
+.sec1{ background:url(../img/bg.jpg) no-repeat; background-size:cover;}
+.sec1>div{
+	text-align: center;
+	width: 100%;
+}
 .sec1 .logo{ top:14.35%; opacity:0; transform:translate(0px,0px); transition:0.5s linear 0s;}
-.sec1 .theme{ top:23.57%; opacity:0; transform:scale(0.8); transition:0.5s linear 0.4s;}
+.sec1 .theme{ top:23.57%; opacity:0; transform:scale(0.8); transition:0.5s linear 0.4s;width: 100%;text-align: center;}
 .sec1 .wri01{ top:42.65%; opacity:0; transition:0.5s linear 0.8s;}
 .sec1 .wri02{ top:64.73%; opacity:0; transition:0.5s linear 1.2s;}
+.sec1 .wri02>p{
+	font-size: 1.2rem;
+}
 .sec1 .wri03{ top:69.71%; opacity:0; transition:0.5s linear 1.6s;}
 .sec1 .wri04{ top:84.81%; opacity:0; transition:0.5s linear 2s;}
 .sec1.active .logo{ opacity:1; transform:translate(0px,0px);}
@@ -91,21 +98,48 @@ div{ transition:all 0.8s linear 0.5s; -webkit-transition:all 0.8s linear 0.5s;}
 .sec2.active .wri{ transform:translate(0px,0px); opacity:1;}
 
 /*第3屏*/
-.sec3{ background:url(../images/page02_bg.jpg) no-repeat; background-size:cover;}
+.sec3{ background:url(../img/bg.jpg) no-repeat; background-size:cover;}
 .sec3 .line{ z-index:2; top:0px; left:0px; width:100%; height:100%;}
 .sec3 .tit{ z-index:3; top:0; opacity:0; transition:0.5s linear 0s;}
-.sec3 .r01{ z-index:1; top:0; opacity:0; transition:0.5s linear 0.3s;}
-.sec3 .r02{ z-index:1; bottom:0; opacity:0; transition:0.5s linear 0.3s;}
-.sec3 .wri{ z-index:3; width:100%; opacity:0; transition:0.5s linear 0.5s;}
-.sec3 .wri01{ top:0px; transform:translate(-80px,0px); transition-delay:0.5s;}
+.sec3 .r01{ z-index:1; left:0;bottom: 0; opacity:0; transition:0.5s linear 0.3s;}
+.sec3 .r01>img{
+	width: 150px;
+}
+.sec3 .r02>img{
+	width: 150px;
+}
+.sec3 .wri01>img,.sec3 .wri04>img{
+	width: 200px;
+}
+.sec3 .r02{ z-index:1; right:0;bottom:0; opacity:0; transition:0.5s linear 0.3s;}
+.sec3 .wri{ z-index:3; opacity:0; transition:0.5s linear 0.5s;}
+.sec3 .wri01{ top:20%;left: 10px; transform:translate(-80px,0px); transition-delay:0.5s;}
+.sec3 .wri01>p{
+	position: absolute;
+	top: 40px;
+	width: 128px;
+	left: 49px;
+	color: #fff;
+}
 .sec3 .wri02{ top:0px; transform:translate(-80px,0px); transition-delay:0.7s;}
 .sec3 .wri03{ top:0px; transform:translate(-80px,0px); transition-delay:0.9s;}
-.sec3 .wri04{ bottom:0px; transform:translate(80px,0px); transition-delay:0.5s;}
+.sec3 .wri04{ top:20%;right: 10px; transform:translate(80px,0px); transition-delay:0.5s;}
+.sec3 .wri04>p{
+	position: absolute;
+	top: 68px;
+	width: 128px;
+	left: 49px;
+}
 .sec3 .wri05{ bottom:0px; transform:translate(80px,0px); transition-delay:0.7s;}
 .sec3 .wri06{ bottom:0px; transform:translate(80px,0px); transition-delay:0.9s;}
 .sec3.active .tit,.sec3.active .r01,.sec3.active .r02{ opacity:1;}
 .sec3.active .wri{ transform:translate(0px,0px); opacity:1;}
-
+.pg5>div.wri01>img,.pg5>div.wri04>img{
+	width: 220px;
+}
+.pg5>div.wri01>p{
+	color: black;
+}
 /*第4屏*/
 .sec4{ background:url(../images/page02_bg.jpg) no-repeat; background-size:cover;}
 .sec4 .line{ z-index:2; top:0px; left:0px; width:100%; height:100%;}

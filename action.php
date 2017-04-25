@@ -2,7 +2,8 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=750, target-densitydpi=device-dpi, user-scalable=no">
+<!--    <meta name="viewport" content="width=750, target-densitydpi=device-dpi, user-scalable=no">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<meta content="telephone=no" name="format-detection"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
@@ -71,7 +72,7 @@
     <script src="js/voice.js.下载"></script>
 	
 <body>
-	<div class="page_guide">
+	<!--<div class="page_guide">
         <div class="page_load">
             <div class="page_load_info">
                 <img src="images/page_load_info.png" width="100%">
@@ -115,37 +116,73 @@
             
             </script>
         </div>
-    </div>
+    </div>-->
     <div id="dowebok">
         <div class="section">
         	<div class="sec sec1">
-                <div class="posDiv logo"><img src="images/logo.png" width="100%"></div>
-                <div class="posDiv theme"><img src="images/page01_theme.png" width="100%"></div>
-                <div class="posDiv wri01"><img src="images/page01_wri01.png" width="100%"></div>
-                <div class="posDiv wri02"><img src="images/page01_wri02.png" width="100%"></div>
+<!--                <div class="posDiv logo"><img src="images/logo.png" width="100%"></div>-->
+                <div class="posDiv theme"><img src="img/font.png" width="80%"></div>
+                <div class="posDiv wri01"><img src="img/man.png" width="90%" alt="man"></div>
+                <!--<div class="posDiv wri02">
+                    <p>保定辖区国债承销机构</p>
+                    <p>国债兑付提示</p>
+                    <p>凭证式储蓄国债更名提示</p>
+                </div>
                 <div class="posDiv wri03"><img src="images/page01_wri03.png" width="100%"></div>
-                <div class="posDiv wri04"><img src="images/page01_wri04.png" width="100%"></div>
+                <div class="posDiv wri04"><img src="images/page01_wri04.png" width="100%"></div>-->
+                <div class="btnBox"><img src="images/page_btn.png" width="100%"></div>
+            </div>
+        </div>
+        <!--<div class="section">
+            <div class="sec sec2">
+                <div class="posDiv line"><img src="images/page02_line.png" width="100%"></div>
+                <div class="posDiv tit"><img src="images/page02_tit.png" width="100%"></div>
+                <div class="posDiv r01"><img src="images/page02_r01.png" width="100%"></div>
+                <div class="posDiv wri wri01"><img src="images/page02_wri01.png" width="100%"></div>
+                <div class="posDiv wri wri02"><img src="images/page02_wri02.png" width="100%"></div>
+                <div class="posDiv wri wri03"><img src="images/page02_wri03.png" width="100%"></div>
+                <div class="posDiv wri wri04"><img src="images/page02_wri04.png" width="100%"></div>
+                <div class="posDiv r02"><img src="images/page02_r02.png" width="100%"></div>
+                <div class="posDiv wri wri05"><img src="images/page02_wri05.png" width="100%"></div>
+                <div class="posDiv wri wri06"><img src="images/page02_wri06.png" width="100%"></div>
+                <div class="posDiv wri wri07"><img src="images/page02_wri07.png" width="100%"></div>
+                <div class="posDiv r03"><img src="images/page02_r03.png" width="100%"></div>
+                <div class="posDiv wri wri08"><img src="images/page02_wri08.png" width="100%"></div>
+                <div class="posDiv wri wri09"><img src="images/page02_wri09.png" width="100%"></div>
+                <div class="posDiv wri wri10"><img src="images/page02_wri10.png" width="100%"></div>
+                <div class="btnBox"><img src="images/page_btn02.png" width="100%"></div>
+            </div>
+        </div>-->
+        <div class="section">
+            <div class="sec sec3">
+                <div class="posDiv r01"><img src="img/woman2.png" width="100%"></div>
+                <div class="posDiv wri wri01">
+                    <img src="img/message1.png" width="100%">
+                    <p>想买点国债，去哪能购买呢</p>
+                </div>
+                <div class="posDiv r02"><img src="img/man2.png" width="100%"></div>
+                <div class="posDiv wri wri04">
+                    <img src="img/message2.png" width="100%">
+                    <p>这事难不住我</p>
+                </div>
                 <div class="btnBox"><img src="images/page_btn.png" width="100%"></div>
             </div>
         </div>
         <div class="section">
-        	<div class="sec sec2">
-            	<div class="posDiv line"><img src="images/page02_line.png" width="100%"></div>
-				<div class="posDiv tit"><img src="images/page02_tit.png" width="100%"></div>
-				<div class="posDiv r01"><img src="images/page02_r01.png" width="100%"></div>
-				<div class="posDiv wri wri01"><img src="images/page02_wri01.png" width="100%"></div>
-				<div class="posDiv wri wri02"><img src="images/page02_wri02.png" width="100%"></div>
-				<div class="posDiv wri wri03"><img src="images/page02_wri03.png" width="100%"></div>
-				<div class="posDiv wri wri04"><img src="images/page02_wri04.png" width="100%"></div>
-				<div class="posDiv r02"><img src="images/page02_r02.png" width="100%"></div>
-				<div class="posDiv wri wri05"><img src="images/page02_wri05.png" width="100%"></div>
-				<div class="posDiv wri wri06"><img src="images/page02_wri06.png" width="100%"></div>
-				<div class="posDiv wri wri07"><img src="images/page02_wri07.png" width="100%"></div>
-				<div class="posDiv r03"><img src="images/page02_r03.png" width="100%"></div>
-				<div class="posDiv wri wri08"><img src="images/page02_wri08.png" width="100%"></div>
-				<div class="posDiv wri wri09"><img src="images/page02_wri09.png" width="100%"></div>
-				<div class="posDiv wri wri10"><img src="images/page02_wri10.png" width="100%"></div>
-                <div class="btnBox"><img src="images/page_btn02.png" width="100%"></div>
+            <div class="sec sec3 pg5">
+                <div class="posDiv r01"><img src="img/man1.png" width="100%"></div>
+                <div class="posDiv wri wri01">
+                    <img src="img/message5.png" width="100%">
+                    <p>人民银行和财政部每年都会进行提示，我这有最新2017到期国债表
+                    </p>
+                </div>
+                <div class="posDiv r02"><img src="img/woman1.png" width="100%"></div>
+                <div class="posDiv wri wri04">
+                    <img src="img/message6.png" width="100%">
+                    <p>买了国债，什么时候能兑付啊
+                    </p>
+                </div>
+                <div class="btnBox"><img src="images/page_btn.png" width="100%"></div>
             </div>
         </div>
         <div class="section">

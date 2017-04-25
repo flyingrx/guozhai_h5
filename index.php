@@ -67,7 +67,7 @@ class wechat {
 	}
 	  
 }
-  
+
 if($_GET['code'] && empty($_COOKIE['wxd_openid']))
 {  
 	$access_token=$wechatObj->get_access_token(); 
