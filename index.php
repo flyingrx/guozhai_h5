@@ -77,8 +77,13 @@
 	<div class="page_guide">
         <div class="page_load">
             <div class="page_load_info">
-                <img src="img/load.jpg">
-                <div class="page_load_num" id="page_load_num">0%</div>
+
+                <div class="page_load_num" >
+					<div>
+						<img src="img/load.jpg">
+					</div>
+					<div id="page_load_num">0%</div>
+				</div>
             </div>
         </div>
     </div>
@@ -109,20 +114,10 @@
 			<div class="sec sec3 pg3">
 				<div class="posDiv wri wri01">
 					<img src="img/note7.png" width="100%">
-					<!--<p>
-							中国工商银行股份有限公司 <br>
-							中国农业银行股份有限公司<br>
-							中国银行股份有限公司<br>
-							中国建设银行股份有限公司<br>
-							交通银行股份有限公司<br>
-							中信银行股份有限公司<br>
-							中国光大银行股份有限公司
-					</p>-->
 				</div>
 				<div class="posDiv r02"><img src="img/man5.png" width="100%"></div>
 				<div class="posDiv wri wri04">
 					<img src="img/message3f.png" width="100%">
-<!--					<p>保定辖区<br>国债承销机构</p>-->
 				</div>
 				<div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
 			</div>
@@ -132,19 +127,9 @@
 				<div class="posDiv r01"><img src="img/man6.png" width="100%"></div>
 				<div class="posDiv wri wri01">
 					<img src="img/note8.png" width="100%">
-					<!--<p>
-						华夏银行股份有限公司 <br>
-						上海浦东发展银行股份有限公司 <br>
-						兴业银行股份有限公司 <br>
-						北京银行股份有限公司 <br>
-						天津银行股份有限公司 <br>
-						河北银行股份有限公司 <br>
-						中国邮政储蓄银行股份有限公司
-					</p>-->
 				</div>
 				<div class="posDiv wri wri04">
 					<img src="img/message4f.png" width="100%">
-<!--					<p>保定辖区<br>国债承销机构</p>-->
 				</div>
 				<div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
 			</div>
@@ -167,10 +152,7 @@
         </div>
 		<div class="section">
 			<div class="sec sec3 pg6">
-				<div class="posDiv wri wri04">
-					<img src="img/message7f.png" width="100%">
-					<!--					<p>2017年储蓄国债（电子式）兑付提示</p>-->
-				</div>
+
 				<div class="posDiv wri wri01">
 					<table class="pg-table">
 						<tr>
@@ -240,6 +222,9 @@
 							<td>5.32%</td>
 						</tr>
 					</table>
+				</div>
+				<div class="posDiv wri wri04">
+					<img src="img/message7f.png" width="100%">
 				</div>
 				<div class="posDiv r01"><img src="img/man6.png" width="100%"></div>
 				<div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
@@ -317,11 +302,10 @@
 						</tr>
 					</table>
 				</div>
-				<div class="posDiv r02"><img src="img/man3.png" width="100%"></div>
 				<div class="posDiv wri wri04">
 					<img src="img/message8f.png" width="100%">
-<!--					<p>2017年储蓄国债（凭证式）兑付提示</p>-->
 				</div>
+				<div class="posDiv r02"><img src="img/man3.png" width="100%"></div>
 				<div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
 			</div>
 		</div>
