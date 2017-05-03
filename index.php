@@ -36,6 +36,8 @@
 			if(iNow==100){
 				clearInterval(timer);
 //				$(".page_smArea").addClass("showBox");
+//				startBtn.dispatchEvent('click');
+				$("#startBtn").trigger('click');
 				$(".page_guide").stop().fadeOut(400);
 				$(".sec1").addClass("active");
 			}else{
@@ -49,14 +51,16 @@
 		
 		var startBtn = document.getElementById("startBtn");
 		var yyAudio = document.getElementById("yyMusic");
-		startBtn.onclick = function(){
-			$(".page_smArea").addClass("hover");
-			yyAudio.play();
-			var smTimer = null;
-			smTimer = setTimeout(function(){
-				$(".page_guide").stop().fadeOut(400);
-				$(".sec1").addClass("active");
-			},46000);
+		startBtn.onclick = function(e){
+			if(this.classList.contains('v-begin')){
+				yyAudio.play();
+				this.classList.remove('v-begin');
+				this.classList.add('v-pause');
+			}else{
+				yyAudio.pause();
+				this.classList.remove('v-pause');
+				this.classList.add('v-begin');
+			}
 		}
 
 		var skipBtn = document.getElementById("skipBtn");
@@ -74,6 +78,9 @@
     <script src="js/voice.js.下载"></script>
 	
 <body>
+<div class="start v-begin" id="startBtn"></div>
+<audio id="yyMusic" src="kn.mp3" preload="auto"></audio>
+
 	<div class="page_guide">
         <div class="page_load">
             <div class="page_load_info">
