@@ -22,7 +22,7 @@ div{ transition:all 0.8s linear 0.5s; -webkit-transition:all 0.8s linear 0.5s;}
 	100%{-webkit-transform:rotate(360deg);}
 }
 .page_guide{ position:absolute; z-index:99; width:100%; height:100%;}
-.page_load{ position:absolute; z-index:2; width:100%; height:100%; background:url(../img/load_bg.jpg) no-repeat; background-size:cover;}
+.page_load{ position:absolute; z-index:2; width:100%; height:100%; background:#fff url(../img/load_bg.jpg) no-repeat; background-size:cover;}
 .page_load_info{margin-top:50%;text-align: center;}
 .page_load_info img{
 	width: 100px;
@@ -68,9 +68,16 @@ div{ transition:all 0.8s linear 0.5s; -webkit-transition:all 0.8s linear 0.5s;}
 .fp-tableCell{ position:relative;}
 .sec{ position:absolute; left:0px; top:0px; width:100%; height:100%;}
 .posDiv{ position:absolute; }
-.btnBox{ position:absolute; z-index:10; top:92%; left:45.34%; width:9.33% !important; opacity:0; animation:imgBtnFn 1s linear infinite;}
+.btnBox{ position:absolute; z-index:10; bottom:0; left:45.34%; opacity:0; animation:imgBtnFn 1s linear infinite;
+	width:6px !important;
+	height:6px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #fff #fff transparent transparent;
+	padding: 6px;
+	transform: rotate(-45deg);}
 /*第1屏*/
-.sec1{ background:url(../img/bg.png) no-repeat; background-size:cover;}
+.sec1{ background:url(../img/bg.jpg) no-repeat; background-size:100% 100%;}
 .sec1>div{
 	text-align: center;
 	width: 100%;
@@ -113,7 +120,7 @@ div{ transition:all 0.8s linear 0.5s; -webkit-transition:all 0.8s linear 0.5s;}
 .sec2.active .wri{ transform:translate(0px,0px); opacity:1;}
 
 /*第3屏*/
-.sec3{ background:url(../img/bg.png) no-repeat; background-size:cover;}
+.sec3{ background:url(../img/bg.jpg) no-repeat; background-size:100% 100%;}
 .sec3 .line{ z-index:2; top:0px; left:0px; width:100%; height:100%;}
 .sec3 .tit{ z-index:3; top:0; opacity:0; transition:0.5s linear 0s;}
 .sec3 .r01{ z-index:1; left:0;bottom: 0; opacity:0; transition:0.5s linear 0.3s;}

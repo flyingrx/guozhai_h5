@@ -78,8 +78,8 @@
     <script src="js/voice.js.下载"></script>
 	
 <body>
-<div class="start v-begin" id="startBtn"></div>
-<audio id="yyMusic" src="kn.mp3" preload="auto"></audio>
+	<div class="start v-begin" id="startBtn"></div>
+	<audio id="yyMusic" src="kn.mp3" preload="auto" loop></audio>
 
 	<div class="page_guide">
         <div class="page_load">
@@ -99,7 +99,7 @@
         	<div class="sec sec1">
                 <div class="posDiv theme"><img src="img/font.png" width="80%"></div>
                 <div class="posDiv wri01"><img src="img/man.png" width="90%" alt="man"></div>
-                <div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
+                <div class="btnBox"></div>
             </div>
         </div>
         <div class="section">
@@ -114,7 +114,7 @@
                     <img src="img/message2.png" width="100%">
                     <p>这事难不住我</p>
                 </div>
-                <div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
+                <div class="btnBox"></div>
             </div>
         </div>
 		<div class="section">
@@ -126,7 +126,7 @@
 				<div class="posDiv wri wri04">
 					<img src="img/message3f.png" width="100%">
 				</div>
-				<div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
+				<div class="btnBox"></div>
 			</div>
 		</div>
 		<div class="section">
@@ -138,7 +138,7 @@
 				<div class="posDiv wri wri04">
 					<img src="img/message4f.png" width="100%">
 				</div>
-				<div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
+				<div class="btnBox"></div>
 			</div>
 		</div>
         <div class="section">
@@ -154,7 +154,7 @@
                     <p>买了国债，什么时候能兑付啊
                     </p>
                 </div>
-                <div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
+                <div class="btnBox"></div>
             </div>
         </div>
 		<div class="section">
@@ -234,78 +234,60 @@
 					<img src="img/message7f.png" width="100%">
 				</div>
 				<div class="posDiv r01"><img src="img/man6.png" width="100%"></div>
-				<div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
+				<div class="btnBox"></div>
 			</div>
 		</div>
 		<div class="section">
 			<div class="sec sec3 pg7">
 				<div class="posDiv wri wri01">
-					<table class="pg-table">
+					<table class="pg-table" style="font-size: .9rem">
 						<tr>
 							<td>国债名称</td>
-							<td>还本付息日</td>
+							<td>兑付期开始日</td>
 							<td>期限</td>
 							<td>到期年利率</td>
 						</tr>
 						<tr>
-							<td>2012年第二期储蓄国债（电子式)</td>
+							<td>2014年凭证式(一期)国债</td>
 							<td>3月10日</td>
-							<td>5年</td>
-							<td>6.15%</td>
+							<td>3年</td>
+							<td>5.00%</td>
 						</tr>
 						<tr>
-							<td>2014年第一期储蓄国债（电子式)</td>
+							<td>2012年凭证式(一期)国债</td>
 							<td>4月10日</td>
-							<td>3年</td>
-							<td>5.00%</td>
-						</tr>
-						<tr>
-							<td>2012年第四期储蓄国债（电子式)</td>
-							<td>5月10日</td>
 							<td>5年</td>
 							<td>6.15%</td>
 						</tr>
 						<tr>
-							<td>2014年第三期储蓄国债（电子式)</td>
-							<td>6月10日</td>
+							<td>2014年凭证式(二期)国债</td>
+							<td>5月10日</td>
 							<td>3年</td>
 							<td>5.00%</td>
 						</tr>
 						<tr>
-							<td>2014年第五期储蓄国债（电子式)</td>
-							<td>7月10日</td>
-							<td>3年</td>
-							<td>5.00%</td>
-						</tr>
-						<tr>
-							<td>2012年第十期储蓄国债（电子式)</td>
-							<td>7月20日</td>
-							<td>5年</td>
-							<td>5.32%</td>
-						</tr>
-						<tr>
-							<td>2014年第七期储蓄国债（电子式)</td>
+							<td>2012年凭证式(二期)国债</td>
 							<td>8月10日</td>
-							<td>3年</td>
-							<td>5.00%</td>
+							<td>5年</td>
+							<td>5.32%</td>
 						</tr>
 						<tr>
-							<td>2012年第十二期储蓄国债（电子式)</td>
+							<td>2014年凭证式(三期)国债</td>
 							<td>9月10日</td>
-							<td>5年</td>
-							<td>5.32%</td>
-						</tr>
-						<tr>
-							<td>2014年第九期储蓄国债（电子式)</td>
-							<td>10月10日</td>
 							<td>3年</td>
 							<td>5.00%</td>
 						</tr>
 						<tr>
-							<td>2012年第十四期储蓄国债（电子式)</td>
-							<td>11月10日</td>
+							<td>2012年凭证式(三期)国债</td>
+							<td>10月10日</td>
 							<td>5年</td>
 							<td>5.32%</td>
+						</tr>
+						<tr>
+							<td>2014年凭证式(四期)国债</td>
+							<td>11月10日</td>
+							<td>3年</td>
+							<td>5.00%</td>
 						</tr>
 					</table>
 				</div>
@@ -313,7 +295,7 @@
 					<img src="img/message8f.png" width="100%">
 				</div>
 				<div class="posDiv r02"><img src="img/man3.png" width="100%"></div>
-				<div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
+				<div class="btnBox"></div>
 			</div>
 		</div>
 		<div class="section">
@@ -329,13 +311,13 @@
 					<p>凭证式国债改名啦
 					</p>
 				</div>
-				<div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
+				<div class="btnBox"></div>
 			</div>
 		</div>
 		<div class="section">
 			<div class="sec sec1 pg9">
 				<div class="posDiv wri01"><img src="img/note5.png" width="100%" alt="man"></div>
-				<div class="btnBox"><img src="img/page_btn.png" width="100%"></div>
+				<div class="btnBox"></div>
 			</div>
 		</div>
 		<div class="section">
