@@ -382,4 +382,42 @@ div{ transition:all 0.8s linear 0.5s; -webkit-transition:all 0.8s linear 0.5s;}
 .sec7 .tel04{ top:77.01%; transition-delay:1.5s;}
 .sec7.active .tit,.sec7.active .wri,.sec7.active .tel{ transform:translate(0px,0px); opacity:1;}
 
-
+@media screen and (min-width: 720px){
+	.posDiv{
+		text-align: center;
+	}
+	.posDiv>img{
+		width:auto !important;
+		max-height: 400px;
+	}
+	.pg-table {
+		font-size: 1rem !important;
+	}
+	.pg3>div.wri01>img {
+		height: auto;
+	}
+	.pg3>div.wri04>img{
+		text-align: left;
+	}
+	.sec3 .wri01 ,.sec3 .wri04 ,.pg4>div.wri04 {
+		top: 2%;
+	}
+	.pg9>div.wri01>img{
+		max-height: 700px;
+		/*height: 100%;*/
+	}
+	.pg10>div.wri01{
+		top:20%;
+	}
+	.hb-container{
+		background: url("../img/note4.png");
+		overflow: auto;
+	}
+	.pg8>div.wri04>p{
+		right: auto;
+		left: 20%;
+	}
+	.pg8>div.wri01>p{
+		top: 28%;
+	}
+}

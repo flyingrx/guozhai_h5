@@ -106,13 +106,13 @@
             <div class="sec sec3">
                 <div class="posDiv r01"><img src="img/woman2.png" width="100%"></div>
                 <div class="posDiv wri wri01">
-                    <img src="img/message1.png" width="100%">
-                    <p>想买点国债，去哪能购买呢</p>
+                    <img src="img/message1n.png" width="100%">
+<!--                    <p>想买点国债，去哪能购买呢</p>-->
                 </div>
                 <div class="posDiv r02"><img src="img/man2.png" width="100%"></div>
                 <div class="posDiv wri wri04">
-                    <img src="img/message2.png" width="100%">
-                    <p>这事难不住我</p>
+                    <img src="img/message2n.png" width="100%">
+<!--                    <p>这事难不住我</p>-->
                 </div>
                 <div class="btnBox"></div>
             </div>
@@ -145,14 +145,13 @@
             <div class="sec sec3 pg5">
                 <div class="posDiv r01"><img src="img/man1.png" width="100%"></div>
                 <div class="posDiv wri wri01">
-                    <img src="img/message5.png" width="100%">
-                    <p>人民银行和财政部每年都会进行提示，我这有最新2017到期国债表</p>
+                    <img src="img/message5n.png" width="100%">
+<!--                    <p>人民银行和财政部每年都会进行提示，我这有最新2017到期国债表</p>-->
                 </div>
                 <div class="posDiv r02"><img src="img/woman1.png" width="100%"></div>
                 <div class="posDiv wri wri04">
-                    <img src="img/message6.png" width="100%">
-                    <p>买了国债，什么时候能兑付啊
-                    </p>
+                    <img src="img/message6n.png" width="100%">
+<!--                    <p>买了国债，什么时候能兑付啊</p>-->
                 </div>
                 <div class="btnBox"></div>
             </div>
@@ -324,11 +323,14 @@
 			<div class="sec sec3 pg10">
 				<div class="posDiv r01"><img src="img/man6.png" width="100%"></div>
 				<div class="posDiv wri wri01">
-					<img src="img/note4.png" width="100%">
-					<h1>
-						购买国债 <br>
-						利国利民
-					</h1>
+					<img src="img/note4n.png" width="100%">
+					<!--<div class="hb-container">
+						<h1>
+							购买国债 <br>
+							利国利民
+						</h1>
+					</div>-->
+					
 				</div>
 
 			</div>
